@@ -1,0 +1,35 @@
+From 5d3694962ce102855195d7823018de3c020b2906 Mon Sep 17 00:00:00 2001
+From: Ben Hosmer <ben@radarearth.com>
+Date: Sun, 6 Mar 2011 16:16:12 -0500
+Subject: [PATCH] Update module version to latest releases and core to 6.20
+
+---
+ drupal-org.make |   10 +++++-----
+ 1 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/drupal-org.make b/drupal-org.make
+index 1c59cbb..417f67b 100644
+--- a/drupal-org.make
++++ b/drupal-org.make
+@@ -1,13 +1,13 @@
+-core = 6.19
++core = 6.20
+ 
+ projects[admin_menu] = 1.6
+-projects[cck] = 2.8
+-projects[imagefield] = 3.7
+-projects[filefield] = 3.7
++projects[cck] = 2.9
++projects[imagefield] = 3.9
++projects[filefield] = 3.9
+ projects[imageapi] = 1.9
+ projects[imagecache] = 2.0-beta10
+ projects[lightbox2] = 1.11
+-projects[skinr] = 1.5
++projects[skinr] = 1.6
+ projects[token] = 1.15
+ projects[ubercart] = 2.4
+ projects[fusion] = 1.0
+-- 
+1.7.4.1
+
